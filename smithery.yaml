@@ -1,0 +1,7 @@
+name: genpark-recursive-json-schema-healer-skill
+description: Recursive JSON schema validator and autonomous healer repairing type mismatches, missing defaults, and broken LLM outputs
+version: 1.0.1
+entrypoint: mcp_server.py
+command: python
+args:
+  - mcp_server.py
